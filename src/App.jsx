@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import dogLogo from '/dog.svg'
 import Header from './components/Header'
+import Calendar from './components/Calendar'
 import './App.css'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   return (
     <>
       <Header />
+      <Calendar />
        </>
   )
 }
