@@ -1,4 +1,5 @@
 import React from 'react'
+import ScheduleButton from './ScheduleButton'
 
 export default function Header() {
     return (
@@ -9,7 +10,7 @@ export default function Header() {
             <nav classname='navbar'>
             <ul>
                 <li><a>About Us</a></li>
-                <li><a>Schedule Your Visit</a></li>
+                <li><ScheduleButton /></li>
                 <li><a>FAQ</a></li>
             </ul>
          </nav>
