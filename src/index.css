@@ -33,15 +33,15 @@ ul {
   text-align: center;
   font-size: 1.1em;
   font-weight: 400;
-  color:#FF8C42;
+  color:#FF7118;
   font-family: 'Sigmar', cursive;
   margin: .25em;
-
 }
 
 nav  {
   height: 2em;
-  background-color: #E0D7C4;
+  background-color: #f2f2f2;
+  border: 1.5px solid black;
 }
 
 nav ul {
@@ -55,3 +55,4 @@ nav ul li a {
   color:#2F2F2F;
   font-size: .6em;
 }
+

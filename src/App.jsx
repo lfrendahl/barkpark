@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import dogLogo from '/dog.svg'
 import Header from './components/Header'
 import PopupComponent from './components/PopupComponent'
+import Image from './components/Image'
 import './App.css'
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
     <>
       <Header />
       <PopupComponent />
+      <Image src='/ball-thin.jpg'/>
        </>
   )
 }

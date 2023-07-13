@@ -7,7 +7,7 @@ const PopupComponent = () => {
       <PopupWidget
         url="https://calendly.com/lfrendahl/barkpark-appointment" 
         rootElement={document.getElementById('root')}
-        text="Schedule a time"
+        text="Book Now"
         textColor="#ffffff"
         color="#FF8C42"
       />
