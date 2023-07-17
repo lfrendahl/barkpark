@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Image(props) {
     return (
-        <img src={props.src}>
+        <img className='img-hero' src={props.src}>
             
         </img>
     )

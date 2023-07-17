@@ -4,15 +4,15 @@ import CustomScheduleButton from './CustomScheduleButton'
 export default function Header() {
     return (
         <div>
-            <div>
-                <h1 className='logotext'>BarkPark</h1>
-            </div>
             <nav classname='navbar'>
-            <ul>
-                <li><a>About Us</a></li>
-                <li><CustomScheduleButton /></li>
-                <li><a>FAQ</a></li>
-            </ul>
+                <div className='nav-left'>
+                    <h1 className='logotext'>BarkPark</h1>
+                </div>
+                <ul className='nav-right'>
+                    <li><a>About Us</a></li>
+                    <li><a>FAQ</a></li>
+                    <li><CustomScheduleButton /></li>
+                </ul>
          </nav>
         </div>
         
