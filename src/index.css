@@ -1,4 +1,5 @@
 :root {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -32,7 +33,7 @@ ul {
 
 
 nav  {
-  height: 3em;
+  height: 5em;
   border-bottom: .25em solid black;
   display: flex;
   align-items: center;
@@ -70,8 +71,38 @@ nav  {
   font-size: 1.5em;
 }
 
-
 .img-hero {
-  width: 100%;
+  width: 96%;
   height: 50%;
+  border: none;
+  border-radius: 12px;
+  margin: 30px;
+}
+
+.hero {
+  background-color: #FBD199;
+  height: 12em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 3em;
+  font-weight: 700;
+  color:#2f2f2f;
+  margin-bottom: .4em;
+}
+
+.hero h3 {
+  font-size: 1.8em;
+  color:#2f2f2f;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

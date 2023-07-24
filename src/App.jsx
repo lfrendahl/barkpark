@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Header from './components/Header'
 import PopupComponent from './components/PopupComponent'
+import Hero from './components/Hero'
 import Image from './components/Image'
 import './App.css'
 
@@ -11,7 +12,9 @@ function App() {
     <>
       <Header />
       <PopupComponent />
-      <Image src='/ball-thin.jpg'/>
+      <Hero />
+      <Image src='/ball-thin.jpg'
+             location='flex-center' />
        </>
   )
 }

@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Image(props) {
     return (
-        <img className='img-hero' src={props.src}>
-            
-        </img>
+        <div className={props.location}>
+            <img className='img-hero' src={props.src}></img>
+        </div>
     )
 }
