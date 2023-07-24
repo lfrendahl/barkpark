@@ -101,6 +101,11 @@ nav  {
   color:#2f2f2f;
 }
 
+.hero-emphasis {
+  text-decoration: underline;
+  font-style: italic;
+}
+
 .flex-center {
   display: flex;
   justify-content: center;
